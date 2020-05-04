@@ -1,0 +1,16 @@
+.container {
+    height: 100%;
+    transition: all .25s linear;
+
+    mat-sidenav-content,
+    mat-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    button {
+        margin-bottom: 2%;
+    }
+}
